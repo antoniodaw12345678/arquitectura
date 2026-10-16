@@ -1,0 +1,23 @@
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Dependencias instaladas en local
+node_modules/
+
+# Registros
+*.log
+logs/
+
+# Copias de datos / backups
+*.dump
+*.sql.gz
+dump.rdb
+
+# Basura del sistema y editores
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
